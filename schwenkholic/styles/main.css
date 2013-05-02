@@ -1,20 +1,106 @@
-body
-{
-    margin-left: 4px;
-    margin-right: 4px;
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, del, dfn, em, img, ins, kbd, q, samp, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+body {
+  -webkit-text-size-adjust:none;
+  font-family:sans-serif;
+}
+h1 {
+  font-size:33px;
+  margin:50px 0 15px;
+  text-align:center;
+  color:#212121;
+}
+h2 {
+  font-size:14px;
+  font-weight:bold;
+  color:#3c3c3c;
+  margin:20px 10px 10px;
+}
+small {
+  margin:0 10px 30px;
+  display:block;
+  font-size:12px;
+}
+a {
+  margin:0 0 0 10px;
+  font-size:12px;
+  color:#3c3c3c;
 }
 
-.ui-footer
-{
-    text-align: center;    
+
+html, body {
 }
 
-.err
-{
-    color: red;
+#console {
+  font-size: 12px;
+  font-family:"Inconsolata", "Monaco", "Consolas", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+  color: #999;
+  line-height: 18px;
+  margin-top: 20px;
+  max-height: 150px;
+  overflow: auto;
 }
 
-#map_canvas
-{
-    text-align:center;
+#mySwipe div b {
+  display:block;
+  font-weight:bold;
+  color:#14ADE5;
+  font-size:20px;
+  text-align:center;
+  margin:10px;
+  box-shadow: 0 1px #EBEBEB;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #E5E5E5 #D3D3D3 #B9C1C6;
+  background-position:center center!important;
+  background-size:cover!important;
+  background-repeat:no-repeat!important;
+  padding-bottom: 9px!important;
+}
+#mySwipe {
+margin-top: -16px!important;
+}
+
+#position{text-align:center;list-style:none;margin:0;padding:0} #position li{display:inline-block;width:10px;height:10px;border-radius:10px;background:#141414;box-shadow:inset 0 1px 3px black,0 0 1px 1px #202020;margin:0 2px;cursor:pointer}  #position li.on{box-shadow:inset 0 1px 3px -1px #28b4ea,0 1px 2px rgba(0,0,0,.5);background-color:#1293dc;background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#1293dc),color-stop(100%,#0f6297));background-image:-webkit-linear-gradient(top,#1293dc,#0f6297);background-image:-moz-linear-gradient(top,#1293dc,#0f6297);background-image:-ms-linear-gradient(top,#1293dc,#0f6297);background-image:-o-linear-gradient(top,#1293dc,#0f6297);background-image:linear-gradient(top,#1293dc,#0f6297)}
+
+.cabecalho_design {
+background-image: url('img/fundoheader.png');
+height: 69px;
+width: 100%;
+position: fixed;
+z-index: 2;
+top: -54px;
+}
+
+.marca {
+margin:0 auto;	
+margin-top: 0px;
+width: 280px;
+}
+
+.marca img{
+width: 100%;
+}
+
+.titulo {
+width: 1%;
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-shadow: 2px 2px #000;
+font-size: 26px;
+text-align: left;
+vertical-align: bottom;
+display: table-cell;
+padding-left: 7px;
+padding-bottom: 40px;
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 57%,rgba(0,0,0,0.65) 97%,rgba(0,0,0,0.65) 99%);
 }
